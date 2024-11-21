@@ -27,4 +27,8 @@ The above code withh give a kraken report as output
 
 `--paired` means the given sequences are of Paired end data.
 
-`-threads` means number of cores you would like to allocate to the process of analysis.
+`--threads` means number of cores you would like to allocate to the process of analysis.
+
+`--report` stands for the name of the output result
+
+And a kraken report will be generated with the name given after `--report`
