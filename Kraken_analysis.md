@@ -17,3 +17,14 @@ Keep the trimmed files and database in one folder for convenience.
 
 ## Analysis
 
+Run this below command for files
+```bash
+ kraken2 --db database_folder_name --paired file1.fastq.gz file2.fastq.gz --threads int > samplekrakenoutput --report kraken_report
+```
+The above code withh give a kraken report as output
+
+`-db` refers to database.
+
+`--paired` means the given sequences are of Paired end data.
+
+`-threads` means number of cores you would like to allocate to the process of analysis.
